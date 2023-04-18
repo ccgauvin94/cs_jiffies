@@ -88,7 +88,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "cs = CryoSPARC(license=\"715d65d8-6d6f-11ec-b46a-a3ced205bdbe\", email=cs_email, password=cs_password, host=\"tempest-cryosparc.msu.montana.edu\", base_port=39000)"
+    "cs = CryoSPARC(license=\"<yourlicense>\", email=cs_email, password=cs_password, host=\"<yourhostname\", base_port=39000)"
    ]
   },
   {
