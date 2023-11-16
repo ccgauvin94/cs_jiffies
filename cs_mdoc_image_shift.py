@@ -69,7 +69,6 @@ for row in grouped_exposures.rows():
             break
 
 #Make a new external job with the updated values, and passthrough the remaining, non-updated values
-print(grouped_exposures.fields())
 project.save_external_result(
     workspace_uid=cs_workspace,
     dataset=grouped_exposures,
@@ -77,5 +76,5 @@ project.save_external_result(
     name="exposure",
     slots=["mscope_params"],
     passthrough=(cs_job,cs_job_output),
-    title="Grouped Exposures"
+    title="ImageShift Updated Exposures"
     )
