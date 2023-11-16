@@ -8,6 +8,15 @@ from sklearn.cluster import KMeans
 from cryosparc.tools import CryoSPARC
 from getpass import getpass
 
+##### Instructions #####
+# Place a copy of this file in each directory you have .mdoc
+# files in, load the cryosparc-tools conda environment (if using)
+# and run this script: python3 cs_exposure_groups.py
+#
+# The major difference between this script and cs_mdoc_image_shift.py is
+# that this script will do the kmeans clustering itself and update the groups
+# while cs_mdoc_image_shift.py will update the image shift values of
+# micrograph so that CryoSPARC can do the clusering
 
 ##### Variables #####
 expected_groups = 25
