@@ -4,7 +4,6 @@ A personal respository for short scripts to do things in CryoSPARC
 # Usage:
 ## Dependencies:
 * cryosparc-tools
-* scikit-learn
 * jupyter notebook
 
 ## Instructions:
