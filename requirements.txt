@@ -1,0 +1,4 @@
+cryosparc-tools
+python-dotenv
+jupyterlab
+pytest
